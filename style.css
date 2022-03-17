@@ -1,0 +1,162 @@
+<script src="https://kit.fontawesome.com/2ecb2065aa.js" crossorigin="anonymous"></script>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 1px solid grey;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+} /* Unvisited link  */
+a:visited {
+  color: #000000;
+} /* Visited link    */
+a:hover {
+  color: #000000;
+} /* Mouse over link */
+a:active {
+  color: #b6b5b5;
+} /* Selected link   */
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.title-links h1 {
+  font-size: 7rem;
+}
+
+.links {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  font-weight: bold;
+}
+
+/* .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin-left: 54%;
+} */
+
+/* TOP-IMG-TEXT */
+.top-img-text {
+  height: 67rem;
+  background-image: url("https://www.housedigest.com/img/gallery/30-gorgeous-green-living-room-ideas-you-can-recreate-at-home/l-intro-1644597197.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.top-img-text h2 {
+  margin-top: 200px;
+  font-size: 4rem;
+}
+
+/* SPACER */
+.about-category {
+  margin: 30px;
+}
+
+.spacer {
+  margin: 2rem;
+}
+
+/* ABOUT */
+.about-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-category h3 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.about-category p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 48%;
+  margin: 0 auto;
+}
